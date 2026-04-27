@@ -8,8 +8,8 @@ DROP TABLE IF EXISTS Students;
 CREATE TABLE Students (
     student_id INTEGER PRIMARY KEY,
     name TEXT,
-    email TEXT UNIQUE=========
-=====================================================================);
+    email TEXT UNIQUE
+);
 
 CREATE TABLE Instructors (
     instructor_id INTEGER PRIMARY KEY,
